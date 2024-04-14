@@ -178,5 +178,47 @@ namespace WindowsFormsApp1
         {
             textBox4.Text = (comboBox3.SelectedIndex + 1).ToString();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = "";
+            dataGridView1.Rows.Clear();
+            dataGridView2.Rows.Clear();
+            dataGridView3.Rows.Clear();
+            dataGridView4.Rows.Clear();
+            dataGridView5.Rows.Clear();
+            dataGridView6.Rows.Clear();
+            dataGridView7.Rows.Clear();
+            //N1
+            textBox19.Text = "";
+            textBox6.Text = "";
+            textBox9.Text = "";
+            textBox12.Text = "";
+            //N2
+            textBox5.Text = "";
+            textBox8.Text = "";
+            textBox10.Text = "";
+            textBox7.Text = "";
+            //N3
+            textBox11.Text = "";
+            textBox14.Text = "";
+            textBox15.Text = "";
+            textBox13.Text = "";
+            //N4
+            textBox16.Text = "";
+            textBox18.Text = "";
+            textBox20.Text = "";
+            textBox17.Text = "";
+            //N5
+            textBox21.Text = "";
+            textBox23.Text = "";
+            textBox24.Text = "";
+            textBox22.Text = "";
+            //N6
+            textBox25.Text = "";
+            textBox27.Text = "";
+            textBox28.Text = "";
+            textBox26.Text = "";
+        }
     }
 }
